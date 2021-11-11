@@ -1,4 +1,4 @@
-FROM nginx:mainline-alpine
+FROM nginx:1-alpine
 
 RUN chmod -R a+w /var/cache/nginx/ \
         && cat > /var/run/nginx.pid \
